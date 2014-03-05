@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoinexApi.cs" />
+    <Compile Include="Json\TradePairOrdersJson.cs" />
     <Compile Include="Models\Currencies.cs" />
     <Compile Include="Json\CurrenciesJson.cs" />
     <Compile Include="Handlers\PairCurrencyMapHandler.cs" />
     <Compile Include="Models\TradeInfo.cs" />
+    <Compile Include="Models\TradePairOrders.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Json\TradePairsJson.cs" />
     <Compile Include="Models\TradePairs.cs" />

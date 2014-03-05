@@ -9,7 +9,9 @@ namespace CoinexApi.Models
     public class TradeInfo
     {
         public TradePair Pair { get; set; }
-        public Decimal Price { get; set; }
+        public double Price { get; set; }
         public bool Buy { get; set; }
+
+        public double Amount { get; set; }
     }
 }
